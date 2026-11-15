@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070914">
+  <meta name="description" content="FLO BOSS — il progetto digitale in evoluzione. Scopri il progetto e segui i prossimi aggiornamenti.">
+  <title>FLO BOSS — Il futuro prende forma</title>
+  <style>
+    :root{--bg:#070914;--panel:#10162b;--blue:#45b7ff;--purple:#9b70ff;--muted:#aab4d0;--white:#f7f9ff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 75% 12%,#19265a 0,transparent 35%),radial-gradient(ellipse at 8% 50%,#211345 0,transparent 34%),var(--bg);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+    .brand{font-weight:900;letter-spacing:.13em;font-size:1.25rem}
+    .brand span{color:var(--blue);text-shadow:0 0 18px #45b7ff88}
+    nav{display:flex;gap:24px;color:var(--muted);font-size:.94rem}
+    nav a:hover{color:var(--white)}
+    .hero{min-height:72vh;display:grid;place-items:center;text-align:center;padding:70px 0 90px}
+    .eyebrow{display:inline-block;border:1px solid #45b7ff66;border-radius:999px;padding:7px 14px;color:#a8ddff;background:#45b7ff12;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase}
+    h1{font-size:clamp(3.2rem,10vw,7rem);line-height:.98;letter-spacing:-.07em;margin:26px 0 18px}
+    h1 .glow{background:linear-gradient(100deg,#fff 10%,var(--blue) 48%,var(--purple) 90%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 25px #5c8dff55)}
+    .lead{max-width:650px;margin:0 auto;color:var(--muted);font-size:clamp(1rem,2.4vw,1.2rem)}
+    .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+    .btn{padding:13px 22px;border-radius:12px;font-weight:750;border:1px solid #6273a8;transition:.2s}
+    .btn.primary{background:linear-gradient(100deg,#188be8,#7653e8);border:0;box-shadow:0 8px 35px #267fe855}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.12)}
+    section{padding:68px 0}
+    .section-title{text-align:center;font-size:clamp(1.8rem,4vw,2.8rem);margin:0 0 12px}
+    .section-sub{text-align:center;color:var(--muted);max-width:650px;margin:0 auto 34px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:linear-gradient(145deg,#141d38dd,#0c1020ee);border:1px solid #7d91ce35;border-radius:18px;padding:25px;box-shadow:0 14px 45px #0005}
+    .icon{width:43px;height:43px;display:grid;place-items:center;border-radius:12px;background:linear-gradient(135deg,#168fe744,#9b70ff44);font-size:1.35rem;margin-bottom:15px}
+    .card h3{margin:0 0 8px}.card p{margin:0;color:var(--muted);font-size:.96rem}
+    .status{margin:30px auto 0;max-width:760px;padding:24px;border-radius:18px;border:1px solid #45b7ff44;background:#101b34bb;text-align:center}
+    .status strong{color:#a8ddff}
+    footer{border-top:1px solid #7d91ce2b;padding:28px 0;color:var(--muted);font-size:.9rem}
+    .foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:720px){nav{gap:12px;font-size:.82rem}.cards{grid-template-columns:1fr}.hero{min-height:65vh;padding:55px 0}.brand{font-size:1.05rem}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <a class="brand" href="#home" aria-label="FLO BOSS home">FLO <span>BOSS</span></a>
+    <nav aria-label="Navigazione">
+      <a href="#progetto">Il progetto</a>
+      <a href="#visione">La visione</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div>
+        <span class="eyebrow">Un nuovo progetto digitale</span>
+        <h1><span class="glow">FLO BOSS</span></h1>
+        <p class="lead">La tecnologia prende forma. Stiamo costruendo FLO BOSS, un progetto pensato per crescere, evolversi e diventare ogni giorno più utile.</p>
+        <div class="actions">
+          <a class="btn primary" href="#progetto">Scopri il progetto</a>
+          <a class="btn" href="#visione">La nostra visione</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" id="progetto">
+      <h2 class="section-title">Il progetto FLO BOSS</h2>
+      <p class="section-sub">Questo è il punto di partenza. Le funzioni verranno presentate e aggiornate man mano che saranno completate e verificate.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">✦</div>
+          <h3>Un'esperienza moderna</h3>
+          <p>Un'identità digitale riconoscibile, con uno stile scuro, dettagli luminosi e un'interfaccia semplice da esplorare.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⌘</div>
+          <h3>In evoluzione</h3>
+          <p>Il progetto è in sviluppo. Le nuove funzioni saranno aggiunte, provate e raccontate qui.</p>
+        </article>
+        <article class="card">
+          <div class="icon">◈</div>
+          <h3>Costruito con cura</h3>
+          <p>Ogni aggiornamento punta a rendere FLO BOSS più chiara, utile e affidabile per chi la userà.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="visione">
+      <h2 class="section-title">Il futuro prende forma</h2>
+      <p class="section-sub">Vogliamo creare qualcosa che le persone abbiano piacere di usare e consigliare. Per questo, prima di annunciare funzioni o date, le verificheremo davvero.</p>
+      <div class="status"><strong>Stato del progetto: in sviluppo</strong><br>La versione iniziale dell'app è in fase di compilazione e verifica. Torna a trovarci per i prossimi aggiornamenti.</div>
+    </section>
+
+    <section class="wrap" id="contatti">
+      <h2 class="section-title">Resta aggiornato</h2>
+      <p class="section-sub">I collegamenti ufficiali e i contatti di FLO BOSS verranno aggiunti qui quando saranno pronti.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <span>© 2026 FLO BOSS</span>
+      <span>Un progetto in evoluzione.</span>
+    </div>
+  </footer>
+</body>
+</html>
